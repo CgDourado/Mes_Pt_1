@@ -1,0 +1,45 @@
+using static System.Console;
+
+string mes = "";
+WriteLine("Digite o Número do Mês: ");
+mes = ReadLine();
+switch (mes)
+{
+    case "1":
+        WriteLine("Oba estamos no Mês de Janeiro!");
+    break;
+    case "2":
+        WriteLine("Oba estamos no Mês de Fevereiro!");
+    break;
+    case "3":
+        WriteLine("Oba estamos no Mês de Março!");
+    break;
+    case "4":
+        WriteLine("Oba estamos no Mês de Abril!");
+    break;
+    case "5":
+        WriteLine("Oba estamos no Mês de Maio!");
+    break;
+    case "6":
+        WriteLine("Oba estamos no Mês de Junho!");
+    break;
+    case "7":
+        WriteLine("Oba estamos no Mês de Julho!");
+    break;
+    case "8":
+        WriteLine("Oba estamos no Mês de Agosto!");
+    break;
+    case "9":
+        WriteLine("Oba estamos no Mês de Setembro!");
+    break;
+    case "10":
+        WriteLine("Oba estamos no Mês de Outubro!");
+    break;
+    case "11":
+        WriteLine("Oba estamos no Mês de Novembro!"); 
+    break;
+    case "12":
+        WriteLine("Oba estamos no Mês de Dezembro!");
+    break;
+}
+ReadLine();
